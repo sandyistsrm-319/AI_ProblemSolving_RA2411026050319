@@ -1,46 +1,75 @@
 # AI Problem Solving Assignment
 
-## Student Details
-- Name: SANTHOSH C
+## 👤 Student Details
+- Name: Santhosh C
 - Register Number: RA2411026050319
 
 ---
 
 ## 📌 Problem 8: Smart Navigation System (BFS & DFS)
 
-### Description
-This problem finds a path between nodes using BFS and DFS algorithms.
+### 🔹 Problem Description
+This system finds a path between nodes using search algorithms.
 
-### Algorithm Used
+### 🔹 Algorithms Used
 - Breadth First Search (BFS)
 - Depth First Search (DFS)
 
-### Output
-Displays the path from start node to goal node.
+### 🔹 Steps
+1. Define graph structure
+2. Take start and goal node
+3. Apply BFS and DFS
+4. Display path
+
+### 🔹 Sample Output
+BFS Path: A → B → D → F  
+DFS Path: A → C → D → F  
 
 ---
 
 ## 📌 Problem 5: Map Coloring Problem (CSP)
 
-### Description
+### 🔹 Problem Description
 Assign colors to regions such that no two adjacent regions have the same color.
 
-### Algorithm Used
+### 🔹 Algorithm Used
 - Constraint Satisfaction Problem (CSP)
 
-### Output
-Displays valid color assignment for each region.
+### 🔹 Steps
+1. Define regions and neighbors
+2. Assign colors
+3. Check constraints
+4. Display valid coloring
+
+### 🔹 Sample Output
+A → Red  
+B → Green  
+C → Blue  
+D → Red  
 
 ---
 
 ## ▶️ How to Run
-1. Open terminal
-2. Run:
+
+```bash
+python problem8_navigation/main.py
+python problem5_map_coloring/main.py
 ```
-python main.py
+
+---
+
+## 📂 Project Structure
+
+```
+AI_ProblemSolving_RA2411026050319/
+│── problem8_navigation/
+│   └── main.py
+│── problem5_map_coloring/
+│   └── main.py
+│── README.md
 ```
 
 ---
 
 ## 💡 Conclusion
-This project demonstrates AI problem solving using search algorithms and CSP techniques.
+This project demonstrates AI problem-solving using search algorithms and constraint satisfaction techniques.
